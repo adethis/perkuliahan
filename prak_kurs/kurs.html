@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kurs</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/kurs.js"></script>
+</head>
+<body>
+    <div class="content">
+        <div class="box">
+            <div class="box-header">
+                <h3 class="box-title">Kurs Rupiah - <small>Mata Uang Asing</small></h3>
+            </div>
+            <br>
+            <div class="box-body">
+                <table id="table_kurs">
+                    <thead>
+                        <th>Masukan Nilai</th>
+                        <th>Valas</th>
+                        <th>Nilai Rupiah</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="form-group">
+                                    <input type="text" name="n_awal" placeholder="Masukan Nilai" />
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-group">
+                                    <select id="valas" onChange="kurs()">
+                                        <option value="">Pilih</option>
+                                        <option value="us">Dollar US</option>
+                                        <option value="sg">Dollar Singapore</option>
+                                        <option value="rm">Ringgit Malaysia</option>
+                                        <option value="yen">Yen Jepang</option>
+                                        <option value="eu">Euro</option>
+                                        <option value="ras">Riyal Arab Saudi</option>
+                                    </select>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-group">
+                                    <input type="text" id="n_hasil" value="" placeholder="Hasil Konversi" />  
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

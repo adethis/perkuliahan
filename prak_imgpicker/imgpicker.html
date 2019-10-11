@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image Picker</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/imagepicker.js"></script>
+</head>
+<body>
+    <div class="content">
+        <div class="box">
+            <div class="box-header">
+                <h3 class="box-title">Image Picker</h3>
+            </div>
+            <div class="box-body">
+                <div class="row">
+                    <div class="cols cols-4 mw-200">
+                        <div class="form-group">
+                            <select name="c_image" id="cImage" onChange="imagePicker()">
+                                <option value="">Pilih</option>
+                                <option value="beruang">Beruang</option>
+                                <option value="burung">Burung</option>
+                                <option value="kucing">Kucing</option>
+                                <option value="panda">Panda</option>
+                                <option value="unta">Unta</option>
+                                <option value="monyet">Monyet</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cols">
+                        <div id="wHere">Image will be place here..</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
