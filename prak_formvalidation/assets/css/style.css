@@ -1,0 +1,133 @@
+/* Style Created by Adethis */
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Light.ttf);
+    font-weight: lighter;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Medium.ttf);
+    font-weight: medium;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-weight: bold;
+}
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.cols {
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.box {
+    border-radius: 5px;
+    display: block;
+    margin: 20px;
+    margin-top: calc(100% / 0);
+    padding: 20px 40px;
+    width: 840px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box-header,
+.box-body {
+    display: block;
+    margin: 20px auto;
+}
+
+h3.box-title {
+    font-size: 21px;
+    height: 35px;
+    width: 180px;
+    box-shadow: -15px 18px 0 -15px #5CC7A8;
+}
+
+.form-group {
+    display: block;
+}
+
+.form-group input {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 10px;
+    min-width: 100%;
+}
+
+.form-group input:focus {
+    border: 1px solid #5CC7A8;
+    box-shadow: 0 0 3px rgba(92, 199, 168, 0.5);
+    transition: all .2s ease-in;
+}
+
+.form-group label {
+    color: #424242;
+    display: block;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 40%;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn-primary {
+    background: #5CC7A8;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: rgb(80, 182, 153);
+    transition: all .2s ease-in;
+}
+
+.btn-block {
+    max-width: 100%;
+}
+
+p#i_error {
+    display: block;
+    font-size: 11px;
+}
+p#i_error.info-error,
+.info-error {
+    background: #ec7676;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    float: right;
+    font-size: 10px;
+    margin: 5px 0;
+    padding: 3px 10px;
+}
+
+.text-right { text-align: right }
+.text-center { text-align: center }
